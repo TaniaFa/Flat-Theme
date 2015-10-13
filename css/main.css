@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.navbar-inverse {
+    border: none;
+}
+.wet-asphalt {
+    background-color: #34495e;
+}
+.turquoise, .green-sea, .sun-flower, .orange, .emerald, .nephrits, .carrot, .pumkin, .peter-river, .belize-hole, .alizarin, .pomegranate, .amethyst, .wisteria, .clouds .silver, .wet-asphalt, .midnight-blue, .concrete, .asbestos {
+    color: #fff;
+}
