@@ -25,3 +25,166 @@
 body {
  background-color: #fff;
 }
+
+*{
+	font-family:Roboto:400,700,300);
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	background-color: #2C3E50;
+	height: 14%;
+	z-index: 1;
+}
+
+header a img{
+	padding-top:7%;
+}
+.navbar-collapse{
+	background-color: #2C3E50;
+	border: 0px solid transparent;
+} 
+
+.navbar-header{
+	background-color:  #2C3E50;
+}
+ 
+ .navbar-toggle{
+margin-top: 5%;
+ }
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: white;
+}
+header nav a{
+	text-decoration: none;
+	padding: 3%;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.collapse ul li a:hover{
+	color: white;
+	background-color: rgb(23, 35, 47);
+	border-bottom: 0px solid transparent;
+	text-align: left;
+
+}
+.nav-pills li a {
+    border-radius: 0px;
+    border: 0px solid transparent;
+    background-color: #2C3E50;
+}
+.a-header{
+font-size: 14px;
+}
+
+.home{
+text-decoration: none;
+	background-color: rgb(23, 35, 47);
+	color: white;	
+}
+
+ header nav a:hover{
+	text-decoration: none;
+	background-color: rgb(23, 35, 47);
+	color: white;
+ }
+
+.hero-img{
+padding-top:68%;
+ background: url('../img/slider/bg1.jpg')center no-repeat;
+ width: 100%;
+}
+
+.flat-theme{
+color: white;
+font-size: 24px;
+}
+
+.portafolio{
+	background-color:rgba(43, 179, 49, 0.8);
+	padding-top: 10%;
+	padding-bottom: 4%;
+}
+
+.portafolio nav a{
+	color: rgba(255, 255, 255, 0.68);
+	padding: 1%;
+	text-decoration: none;
+
+}
+.portafolio nav a:hover{
+	color: white;
+}
+
+.img-green{
+	padding:4%;
+	width: 100%;
+}
+
+.green{
+width: 100%;
+background-color:white;
+border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.first-footer{
+	background-color:#2C3E50;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 9%;
+	padding-right: 9%;
+	color:rgba(255, 255, 255, 0.67); 
+}
+
+.first-footer h3{
+	color: white;
+}
+
+.img-footer{
+	float: left;
+	padding-right: 3%;
+}
+
+.ico{
+	padding-right: 2%;
+}
+
+footer nav a:hover {
+background-color:#2C3E50;
+text-decoration: none;
+color: white;
+}
+footer nav a{
+	text-decoration: none;
+	padding:2%;
+}
+footer{
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: rgb(23, 35, 47);
+	color:rgba(255, 255, 255, 0.67);
+}
+
+.img-ads{
+	width: 100%;
+	border-radius: 4%;
+}
+
+.blog{
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+
