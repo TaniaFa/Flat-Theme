@@ -1,4 +1,4 @@
-
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 .clearfix {
   *zoom: 1;
 }
@@ -12,7 +12,214 @@
 .clearfix:after {
   clear: both;
 }
-.navbar-inverse {
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+/*nav*/
+.navbar{
+	margin-bottom: 0 !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.nav-bar{
+	background-color: #34495E;
+	padding: 1%;
+}
+
+.nav-bar a{
+	color: #ADB4BB !important; 
+	text-decoration: none;
+}
+
+.nav-bar img{
+	margin: 5%;
+}
+
+.Home-bg{
+	background-color: #2C3E50;
+	border-radius: 5px;
+}
+
+.navbar ul li:hover{
+	background-color: #2C3E50;
+	border-radius: 5px;
+}
+/*Carousel*/
+.carousel-caption {
+    text-align: left !important;
+    left: 10%;
+    bottom: 37%;
+}
+
+.carousel-caption span {
+	font-weight: 200;
+	font-size: 2.5em;
+	color: white;
+}
+
+.carousel-caption p{
+	color: white;
+	font-size: 1em;
+
+}
+
+/*section header icons*/
+
+.section-header{
+	padding:4%;
+    color: white;
+}
+
+.icon-redes{
+	font-size: 35px;
+	height: 70px;
+	width: 70px;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, 0.4);
+	display:block;
+	border-radius: 50%;
+}
+
+.icon-redes:hover{
+	cursor: pointer;
+	background-color: #092917;
+	border-radius: 20%;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+}
+.bg-g{
+	background-color: #2ECC71;
+}
+
+.bg-p{
+	background-color: #F5F5F5;
+}
+
+.text-white{
+	color: white;
+}
+
+.pd-4{
+	padding: 4%;
+}
+.mg-4{
+	margin: 4%;
+}
+/*Our Latest Project*/
+.Last-project{
+	padding: 6%;
+}
+
+.Last-project a{
+  background-color: #D9534F !important;
+  border-color: #D9534F !important;
+}
+
+.caption p{
+	margin-bottom: 0 !important;
+	font-size: 1.28em;
+}
+
+.thumbnail-hover{
+	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+}
+
+.thumbnail-hover:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 100ms;
+}
+
+/*Our Clients*/
+ .Our-Clients{
+ 	background-color: #E74C3C;
+ 	padding: 4% 0%;
+ }
+
+ .Our-Clients span{
+ 	font-size: 0.7em;
+ 	font-size: sans-serif;
+ }
+  /*ABOUT .HTML*/
+
+ .section-about a{
+ 	color: white;
+ 	text-decoration: none;
+ 	font-size: 1.2em;
+
+ }
+.section-about p{
+	color: white !important;
+}
+#bottom {
+    color: #bdc3c7;
+}
+ul.arrow, ul.arrow-double, ul.tick, ul.cross, ul.star, ul.rss {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.newmember {
+    background-color: #34495e;
+}
+body > section {
+    padding: 50px 0;
+}
+.row > div {
+    margin-bottom: 10px;
+}
+a {
+  color: #34495e;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+.newmember a:not(.btn) {
+    color: #bdc3c7;
+}
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #bdc3c7;
+}
+.goldmember {
+    background-color: #2c3e50;
+}
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1{
+	color: white;
+}
+.section-about p {
+  color: white !important;
+}
+
+/*.navbar-inverse {
     border: none;
 }
 .wet-asphalt {
@@ -20,7 +227,8 @@
 }
 .turquoise, .green-sea, .sun-flower, .orange, .green, .nephrits, .carrot, .pumkin, .peter-river, .belize-hole, .alizarin, .pomegranate, .amethyst, .wisteria, .clouds .silver, .wet-asphalt, .midnight-blue, .concrete, .asbestos {
     color: #fff;
-}
+}*/
+/*
 <<<<<<< HEAD
 body {
  background-color: #fff;
@@ -108,7 +316,7 @@ padding-top:68%;
 .flat-theme{
 color: white;
 font-size: 24px;
-}
+}*/
 
 .portafolio{
 	background-color:rgba(43, 179, 49, 0.8);
@@ -207,15 +415,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #34495e;
 }
 
-
-
-
 .green {
   background-color: #2ecc71;
 }
 .row > div {
   margin-bottom: 10px;
-  margin-top: 3em;
 }
 
 #title h1 {
@@ -225,9 +429,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 body > section {
   padding: 50px 0;
-}
-.row > div {
-  margin-bottom: 10px;
 }
 ul.breadcrumb {
   margin: 20px 0 0;
